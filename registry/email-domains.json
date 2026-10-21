@@ -1,0 +1,46 @@
+{
+  "project": "MCORE-MAIL-001",
+  "description": "Sovereign Email Gateway — active domains and Cloudflare zone IDs",
+  "generated_at": "2026-10-21T00:00:00Z",
+  "last_updated": "2026-10-21T14:45:00Z",
+  "destination_gmail": "meticulouscore@gmail.com",
+  "domains": [
+    {
+      "domain": "mcoreai.com",
+      "zone_id": "ad9e0e1a4da6538fbad49911b391b6ce",
+      "status": "active",
+      "plan": "Free Website",
+      "email_routing_enabled": true,
+      "email_routing_status": "OPERATIONALLY_VERIFIED",
+      "email_routing_enabled_at": "2026-10-21T14:19:05Z",
+      "rules_confirmed": "2026-10-21T14:45:00Z by AIS"
+    },
+    {
+      "domain": "meticulouscore.dev",
+      "zone_id": "22841df75d396e2e9128aaba0277fd0c",
+      "status": "active",
+      "plan": "Free Website",
+      "email_routing_enabled": true,
+      "email_routing_status": "OPERATIONALLY_VERIFIED",
+      "email_routing_enabled_at": "2026-10-21T14:19:06Z",
+      "rules_confirmed": "2026-10-21T14:45:00Z by AIS"
+    },
+    {
+      "domain": "meticulouscore.net",
+      "zone_id": "c2903c3ad4c5bc6a1bdcb2f9742e7222",
+      "status": "active",
+      "plan": "Free Website",
+      "email_routing_enabled": true,
+      "email_routing_status": "OPERATIONALLY_VERIFIED",
+      "email_routing_enabled_at": "2026-10-21T14:19:07Z",
+      "rules_confirmed": "2026-10-21T14:45:00Z by AIS"
+    }
+  ],
+  "pending_domains": [
+    {
+      "domain": "meticulouscore.com",
+      "status": "NOT_ON_ACCOUNT",
+      "note": "To be added as a zone separately at a later date"
+    }
+  ]
+}

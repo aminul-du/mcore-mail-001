@@ -1,0 +1,72 @@
+{
+  "project": "MCORE-MAIL-001",
+  "description": "Email alias mapping — custom addresses forwarded to Gmail destination",
+  "generated_at": "2026-10-21T00:00:00Z",
+  "last_updated": "2026-10-21T14:45:00Z",
+  "destination": "meticulouscore@gmail.com",
+  "destination_status": "VERIFIED — confirmed by AIS via dashboard manual verification",
+  "email_routing_enabled": true,
+  "email_routing_enabled_zones": ["mcoreai.com", "meticulouscore.dev", "meticulouscore.net"],
+  "rule_id_capture_method": "MANUAL_CONFIRMATION — API audit returned 403 (token lacks email-routing read permissions); rule IDs not captured programmatically. AIS confirmed all 9 rules created and enabled via dashboard.",
+  "aliases": [
+    {
+      "alias": "admin@mcoreai.com",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "founder@mcoreai.com",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "security@mcoreai.com",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "admin@meticulouscore.dev",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "founder@meticulouscore.dev",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "security@meticulouscore.dev",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "admin@meticulouscore.net",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "founder@meticulouscore.net",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    },
+    {
+      "alias": "security@meticulouscore.net",
+      "forward_to": "meticulouscore@gmail.com",
+      "rule_id": "NOT_CAPTURED — see dashboard",
+      "status": "ACTIVE — confirmed by AIS"
+    }
+  ],
+  "dmarc_rua_recipients": [
+    "admin@mcoreai.com",
+    "admin@meticulouscore.dev",
+    "admin@meticulouscore.net"
+  ]
+}
